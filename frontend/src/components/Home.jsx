@@ -22,11 +22,11 @@ const Home = () => {
 
   return (
     // <div>Home</div>
-    <div>
+    <div  style={{paddingLeft:30,paddingTop:50}}>
                 <Grid container spacing={2}>
 
       {rows.map((item)=>(
-                  <Grid item xs={6}>
+                  <Grid item xs={4}>
                   <Card sx={{ maxWidth: 345 }}>
               <CardMedia
                 sx={{ height: 320 }}
@@ -46,7 +46,7 @@ const Home = () => {
               </CardActions>
             </Card>
                   
-                  </Grid>
+           </Grid>
         ))}
         </Grid>
     </div>
